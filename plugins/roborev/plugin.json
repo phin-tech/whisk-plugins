@@ -1,0 +1,15 @@
+{
+  "id": "roborev",
+  "name": "RoboRev",
+  "version": "0.1.0",
+  "ui": {
+    "reviewActions": [
+      {
+        "id": "roborev.review",
+        "label": "RoboRev",
+        "urlTemplate": "https://www.roborev.io/?repo={{project.rootDir.url}}&item={{work_item.number.url}}",
+        "blocking": false
+      }
+    ]
+  }
+}

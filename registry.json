@@ -9,6 +9,24 @@
         "type": "path",
         "path": "plugins/github-issues"
       }
+    },
+    {
+      "id": "plannotator",
+      "name": "PlanNotator",
+      "description": "Human code review via PlanNotator. Opens the review tool and optionally fetches the result to resolve the review gate.",
+      "source": {
+        "type": "path",
+        "path": "plugins/plannotator"
+      }
+    },
+    {
+      "id": "roborev",
+      "name": "RoboRev",
+      "description": "AI-assisted code review via RoboRev.io. Opens the review in the browser. Gate resolution is manual.",
+      "source": {
+        "type": "path",
+        "path": "plugins/roborev"
+      }
     }
   ]
 }

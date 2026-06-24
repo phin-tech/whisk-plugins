@@ -1,0 +1,16 @@
+{
+  "id": "plannotator",
+  "name": "PlanNotator",
+  "version": "0.1.0",
+  "ui": {
+    "reviewActions": [
+      {
+        "id": "plannotator.code-review",
+        "label": "PlanNotator",
+        "urlTemplate": "https://plannotator.ai/docs/commands/code-review/?path={{project.rootDir.url}}&workItemId={{work_item.id.url}}",
+        "submitCommand": "node ./fetch-review.mjs",
+        "blocking": true
+      }
+    ]
+  }
+}
